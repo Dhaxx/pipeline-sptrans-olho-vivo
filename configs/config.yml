@@ -1,0 +1,11 @@
+api:
+  base_url: "https://api.olhovivo.sptrans.com.br/v2.1"
+  endpoints:
+    - "/Login/Autenticar"
+    - "/Linha"
+    - "/Parada"
+    - "/Posicao"
+    - "/Corredor"
+    - "/Empresa"
+    - "/Previsao"
+    - "/Velocidade"
