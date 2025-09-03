@@ -60,3 +60,6 @@ logs/
 .dvc/
 *.dvc
 .cache/
+
+# data/raw
+data/raw/*
