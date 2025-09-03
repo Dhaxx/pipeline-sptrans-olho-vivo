@@ -1,14 +1,15 @@
-paths:
-  raw_data: 'data\raw'
-  
-files:
-  agency: "agency.txt"
-  routes: "routes.txt"
-  trips: "trips.txt"
-  stop_time: "stop_times.txt"
-  calendar: "calendar.txt"
-  frequencies: "frequencies.txt"
-  stops: "stop_times.txt"
+api:
+  line_id: 8000
+  base_url: "https://api.olhovivo.sptrans.com.br/v2.1"
+  endpoints:
+    - "/Login/Autenticar"
+    - "/Linha"
+    - "/Parada/BuscarParadasPorLinha"
+    - "/Posicao"
+    - "/Corredor"
+    - "/Previsao"
+    - "/KMZ"
 
-parameters:
-  timezone: "America/Sao_Paulo"
+paths:
+  data:
+    - 'data/raw'
